@@ -10,7 +10,7 @@ wordpress-com-proxy also loads ***jquery*** in the context which will allow you 
 
 First, download/checkout the code from the github repository. You will find three files in the repository. To get up and running quickly edit the **config.php** like below
 
-```
+```php
 <?php
 define("OLD_BLOG_URL","http://hasin.me"); 
 define("NEW_BLOG_URL","http://wpproxy.rs.af.cm"); 
