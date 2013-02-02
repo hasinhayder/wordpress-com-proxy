@@ -11,12 +11,12 @@ $data = str_replace(
   array(
     "<a href=\"{$primaryurl}",
     "</body>",
-    "<meta"
+    "</head>"
     ),
   array(
     "<a href=\"{$secondaryurl}",
     "<script src='http://code.jquery.com/jquery.min.js'></script><script type='text/javascript' src='{$secondaryurl}/home.js.php'></script></body>",
-    "<meta property='fb:admins' content='".FACEBOOK_ID."'/><meta property='fb:app_id' content='".FACEBOOK_APP_ID."'/><meta"
+    "<meta property='fb:admins' content='".FACEBOOK_ID."'/><meta property='fb:app_id' content='".FACEBOOK_APP_ID."'/></head>"
     ),$data);
 echo $data;
 ?>
