@@ -15,7 +15,7 @@ $data = str_replace(
     ),
   array(
     "<a href=\"{$secondaryurl}",
-    "<script src='http://code.jquery.com/jquery.min.js'></script><script src='{$secondaryurl}/home.php'></script></body>",
+    "<script src='http://code.jquery.com/jquery.min.js'></script><script type='text/javascript' src='{$secondaryurl}/home.js.php'></script></body>",
     "<meta property='fb:admins' content='".FACEBOOK_ID."'/><meta property='fb:app_id' content='".FACEBOOK_APP_ID."'/><meta"
     ),$data);
 echo $data;
