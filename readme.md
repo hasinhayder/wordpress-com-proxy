@@ -26,7 +26,7 @@ define your old blog url in **line #2** and new url in **line #3**, so for examp
 
 wordpress-com proxy dynamically replaces the wordpress.com commenting system with **Facebook Comments**. You don't need to do anything to enable this feature. But if you want to perform moderation then create a Facebook application from [Facebook Developers](http://www.facebook.com/developers), note the **app id**. Now edit the **config.php** and add that app id in **line #5**. Also add your facebook id in **line #4**
 
-```
+```php
 define("FACEBOOK_ID","your facebook id"); 
 define("FACEBOOK_APP_ID","your app id"); 
 ```
