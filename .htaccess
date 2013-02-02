@@ -1,0 +1,12 @@
+RewriteEngine on
+RewriteCond $1 !^(index\.php|images|robots\.txt)
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{QUERY_STRING} (.+)
+RewriteRule ^(.*)$ index.php?$1&%{QUERY_STRING}
+
+
+RewriteCond $1 !^(index\.php|images|robots\.txt)
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php?$1
