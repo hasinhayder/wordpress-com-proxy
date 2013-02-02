@@ -20,7 +20,7 @@ define("FACEBOOK_WIDTH","750");
 define("FACEBOOK_COMMENT_COUNT","30"); 
 ```
 
-define your old blog url in **line #2** and new url in **line #3**, so for example in the example above my actual wordpress.com blog is ***http://hasin.me*** and I am proxying it from ***http://wpproxy.rx.af.cm***
+define your old blog url in **line #2** and new url in **line #3**, so for example in the example above my actual wordpress.com blog is ***http://hasin.me*** and I am proxying it from ***http://wpproxy.rs.af.cm***
 
 ### Integrating it with Facebook
 
