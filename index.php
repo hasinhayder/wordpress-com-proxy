@@ -1,6 +1,6 @@
 <?php
 include_once("config.php");
-$dataurl =$primaryurl = OLD_BLOG_URL;
+$dataurl = $primaryurl = OLD_BLOG_URL;
 $secondaryurl = NEW_BLOG_URL;
 $path =array_keys($_GET);
 if(!empty($path[0])) $dataurl = "{$primaryurl}/{$path[0]}";
