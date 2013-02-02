@@ -12,7 +12,7 @@ First, download/checkout the code from the github repository. You will find thre
 
 ```php
 <?php
-define("OLD_BLOG_URL","http://hasin.me"); 
+define("OLD_BLOG_URL","http://hasin.wordpress.com"); 
 define("NEW_BLOG_URL","http://wpproxy.rs.af.cm"); 
 define("FACEBOOK_ID",""); 
 define("FACEBOOK_APP_ID","249643311490"); 
