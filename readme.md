@@ -1,7 +1,7 @@
 ## Wordpresss Com Proxy
 
 
-wordpress-com-proxy is created to help you deliver your wordpress.com from anywhere. This script is simple and masks pretty well. Using this script you can still manage your blog content from wordpress.com while deliver the contents elsewhere. 
+wordpress-com-proxy is created to help you deliver your wordpress.com blog from anywhere for free. This script is simple and masks pretty well. Using this script you can still manage your blog content from wordpress.com while deliver the contents elsewhere. 
 
 wordpress-com-proxy also loads ***jquery*** in the context which will allow you to do anything possible with jquery.
 
